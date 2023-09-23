@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+html,body {
+    height: 100%;
+    width: 100%;
+}
+
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: cadetblue;
+}
+
+
+#card{
+    height: 400px;
+    width: 300px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#card>img{
+    height: 45%;
+    width: 70%;
+    /* margin-left: 15px; */
+    object-fit:fill;
+    /* object-position: center; */
+    border-radius: 50%;
+}
+#card>h2{
+    font-size: 25px;
+    margin: 12px 0 10px  0;
+}
+
+#card>h5{
+    font-size: 25px;
+    color: red;
+    margin-top: 30px;
+}
+#btn-container{
+    margin-top: 15px;
+    
+}
+#add-freind{
+   
+    background-color: cadetblue;
+    color: white;
+    font-weight: 700;
+    padding:12px 20px;
+
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+}
+
+#Remove{
+    background-color: #dadada;
+    color:black;
+    padding:12px 20px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+}
